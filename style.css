@@ -55,6 +55,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
+        overflow: hidden;
     }
 
     #text{
@@ -76,14 +77,12 @@
 
     .aboutme-sec {
         position: relative;
-        min-height: 100vh;
+        padding-top: 2em;
+        margin-bottom: 5em;
         width: 100%;
         display: flex;
         justify-content:center ;
         align-items: center;
-        background:#0B0E21;
-        flex-wrap: wrap;
-        padding-top: 1em;
     }
 
     .aboutme-sec img {
@@ -91,13 +90,21 @@
         margin-right: 3em;
     }
 
+    .contact-sec 
+    {
+      padding-top: 3em;
+      padding-bottom: 3em;
+      background-color: #040611;
+    }
     .main{
         width: 1200px;
         max-width: 95%;
         margin: 0 auto;
+        margin-bottom: 1em;
         display: flex;
         align-items: center;
         justify-content: space;
+        
     }
 
     .about-text {
@@ -159,153 +166,39 @@
     }
     .portfolio-sec {
         position: relative;
-        min-height: 100vh;
+        margin-top: 5em;
+        margin-bottom: 7em;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background:#0B0E21;
         flex-wrap: wrap;
-        padding-top: 1em;
+        padding-top: 2em;
+        background-color:#040611;
     }
     .portfolio-sec h1,
     .aboutme-sec {
         color:white;
     }
 
-    .portfolio {
-        display: flex;
+   
+    .top_div{
         position: relative;
-        width: 1500px;
-		flex-wrap: wrap;
+        width: 100%;
+        display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 4em;
-        
-        flex-direction: row; 
-    } 
-
-    
-    .main-container{
-        width: 350px;
-        height: 460px;
-        margin: 10px;
-        transition: all 0.9s ease;
-        position: static;
-        box-shadow: 2px 2px 25px;
-        border-radius: 20px;
-        background-color: #FA4759;
-        
-    }
-    .item-box{
-        margin-bottom: 1.5rem;
-        position:relative;
         flex-direction: column;
-        height: 250px;
-        width: 350px;
-        overflow: hidden;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        box-shadow: 2px 0px 25px;
-        cursor: pointer;
-    }
-    .item-box img{
-        width: 100%;
-        height: 100%;
-        transition: all 500ms ease-out;
-    }
-    .item-box .capa{
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        transition: all 500ms ease-out;
-        opacity: 0;
-        visibility: hidden;
-        text-align: center;
-    }
-    .item-box:hover > .capa{
-        opacity: 1;
-        visibility: visible;
-    }  
-    .item-box:hover > img{
-        transform:scale(1.3);
-    }
-    .item-box .capa p{
-        color: white;
-        font-size: 20px;
-        font-weight: 450;
-        line-height: 1;
-        width: 100%;
-        max-width: 220px;
-        margin:auto;
-    }
-    .item-box:hover > .capa {
-  opacity: 1;
-  visibility: visible;
-}
-.item-box:hover > img {
-  transform:scale(1.3);
-}
-.item-box:not(:hover) > .capa {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease;
-  transition: visibility 0.5s ease;
-}
-.item-box:not(:hover) > img {
-  transform:scale(1);
-  transition: transform 0.5s ease;
-}
-    .details-container {
-        display: flex;
-        gap: 2rem;
-        padding: 0rem 1rem;
-    }
-    .type {
-        width: 3rem;
-        align-self: flex-start;
-        margin-right: -1rem;
-        aspect-ratio: 1;
-    } 
-    .project-name {
-        font-size: 1.6rem;
-        color: white;
-        margin-bottom: 0.2rem;
-    }
-    .company {
-        font-size: 1.2rem;
-        color: white;
-        margin-bottom: 1rem;
-    }
-
-    .wrapper{
-        position: relative;
-        min-height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background:#0B0E21;
-        color: white;
-        flex-wrap: wrap;
-        margin-top: 10em;
-   }
-
-   .top_div{
-        position: relative;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;    
+        padding-bottom: 4em; 
    }
 
    .top_div h1 {
         position: relative;
         font-size: 3em;
         text-transform: uppercase;
-        margin: 30px;
+        margin-left: 30px;
+        color: white;
+        
    }
    .top_div h5 {
         position: relative;
@@ -321,83 +214,6 @@
         background: purple;
    }
 
-   .content {
-        position: relative;
-        width: 300px;
-        padding: 15px;
-        margin: 1px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-   }
-
-   .content img {
-        position:relative;
-        width: 125px;
-        height: 125px;
-        padding: 5px;   
-   }
-
-   .content:hover img{
-    transform:scale(1.15);
-    transition: transform 0.5s ease;
-   }
-
-   .content:not(:hover) > img {
-    transform:scale(1);
-    transition: transform 0.5s ease;
-  }
-
-   .content::before,
-   .content::after {
-        --scale: 0;
-        --arrow-size: 15px;
-        --tooltip-color: #FA4759;
-        
-
-
-        position: absolute;
-        top: 1rem;
-        left: 50%;
-        transform: translateX(-50%)translateY(var(--translate-y,0)) scale(var(--scale));
-        transition: 150ms transform;
-        transform-origin: bottom center;
-   }
-
-   .content::before{
-    --translate-y: calc(-100% - var(--arrow-size));
-
-    content: attr(data-tooltip);
-    color: white;
-    padding: .5rem;
-    border-radius: .3rem;
-    text-align: center;
-    width: max-content;
-    max-width: 100%;
-    background: var(--tooltip-color);
-    font-size: 1.4em;
-    
-   }
-
-   .content:hover::before,
-   .content:hover::after {
-    --scale: 1;
-    
-   }
-
-   .content::after{
-        --translate-y: calc(-1 * var(--arrow-size));
-
-        content: '';
-        border: var(--arrow-size)solid transparent;
-        border-top-color: var(--tooltip-color);
-        transform-origin: top center;
-        
-   }
-
-
    /*Portafolio slides*/
 
    .slider-container {
@@ -405,6 +221,7 @@
     max-width: 1200px; /* Adjust based on your layout requirements */
     margin: auto;
     overflow: hidden; /* Ensure no overflow of child elements */
+    
   }
   
   .slide {
@@ -412,6 +229,13 @@
     justify-content: space-between;
     align-items: flex-start; /* Align items at the top */
     margin-bottom: 20px; /* Space for icons */
+    
+  }
+
+  .slide h3
+  {
+    color: white;
+    font-size: 1.5em;
   }
   
   .slide-image {
@@ -421,15 +245,25 @@
   
   .slide-description {
     width: 35%; /* Description takes 35% of the slide width, adjust as needed */
-    padding: 20px;
+    padding-top: 0;
     box-sizing: border-box; /* Include padding in width calculation */
-    margin-top: 20px; /* Add space between image and description */
+    margin-top: 0; /* Add space between image and description */
+    min-height: 600px; /* Ajusta esto a la altura del contenido más alto que esperas */
   }
+
+  .slide-description p
+  {
+    padding-top: 1em;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+
   
   .slide-icons {
     display: flex;
     justify-content: center;
     gap: 10px; /* Spacing between icons */
+    margin-bottom: 1em;
   }
   
   .icon {
@@ -482,15 +316,15 @@
   }
   
   .hyperlink-icon:hover {
-    transform: scale(1.1); /* Scale up icon size on hover */
+    transform: scale(1.5); /* Scale up icon size on hover */
   }
 
   .hyperlinkSM-icons {
     display: flex;
     align-items: center;
-    gap: 0.1px; /* Spacing between hyperlink icons */
-
-    
+    justify-content: center;
+    gap: 30px; /* Spacing between hyperlink icons */
+  
   }
 
   .hyperlinkSM-icon {
@@ -501,7 +335,7 @@
   }
   
   .hyperlinkSM-icon:hover {
-    transform: scale(1.5); /* Scale up icon size on hover */
+    transform: scale(1.2); /* Scale up icon size on hover */
   }
   
 
@@ -511,4 +345,44 @@
     }
     
 
+  }
+
+  /*Skills and Tools section*/
+
+  .skills-tools-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .skills, .tools {
+    flex: 1; /* Hace que ambas columnas tengan el mismo ancho */
+    margin: 0 10px; /* Espacio entre las columnas */
+  }
+  
+  /* Estilos adicionales para las listas si es necesario */
+  ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-top: 4px;
+    margin-bottom: 8px; /* Espacio entre los ítems de la lista */
+  }
+  
+  .skills-tools-container h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px; /* Espacio debajo de los títulos de sección */
+  }
+
+  .skills-tools-container h3 {
+    color: white;
+    font-size: 25px;
   }

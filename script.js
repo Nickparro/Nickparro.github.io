@@ -26,6 +26,7 @@ const slides = [
     {
         imgSrc: '/bank/Projects/MusicalInfectionDemoGIF.gif',
         title: 'Musical Infection',
+        details: '(2018 - In Progress)',
         description: `It was the first 2D platform game that was exposed at the Unity User Group stand in SOFA 2018 (Colombia) achieving more than 250 impressions during the event. I developed it for my own indie project "Sekhmet Games" beside my cousin Juanes Vargas. This game is in current development and theres no copy of the product published yet.
 
 
@@ -39,25 +40,9 @@ const slides = [
         link: 'https://sekhmet-games.itch.io/musical-infection'
     },
     {
-        imgSrc: '/bank/Projects/LiteraturaVRgif.gif',
-        title: 'LiteraturaVR',
-        description: `It was my high school degree project: it's about an VR immersive experience with education proposes. It exposes the most relevant elements of the literary work "El coronel no tiene quien le escriba" by Gabriel García Márquez, where a 3D scenario recreates the environment's book.
-
-
-        - I organized and led a 4 person team during the last 3 years of high school for the development of this project.
-
-        - I designed the stage and the interactive spaces of the app using the Unity Asset Store, primary 3D objects, textures and implementing sound effects.
-
-        - I programmed the 100% of this experience using Unity, managing control the game with the Bluetooth joystick of the VR box cardboard.
-
-        - We achieve got honor mention as most innovate degree project at the 2021 prom.
-        
-        `,
-        link: 'https://play.google.com/store/apps/details?id=com.CoronelFits.LITERATURAVR&hl=es_CO&gl=US'
-    },
-    {
         imgSrc: '/bank/Projects/RunErnestoRun.gif',
         title: 'Run Ernesto Run!',
+        details: '(2024)',
         description: `It's an endless 2D runner created during the second and third week of the  Generation's Unity Developer Bootcamp by 4 people team as the first challenge that we decided to start.
         
         
@@ -75,6 +60,7 @@ const slides = [
     {
         imgSrc: '/bank/Projects/NoDuckHunt.gif',
         title: 'No Duck Hunt',
+        details: '(2024)',
         description: `It is a 3D videogame based on the popular arcade game "Duck Hunt" developed for the first 1 day Game Jam I participated: "Generation Colombia Cohort5: GameJam 1 Day" with the topic "no violence".
         
 
@@ -86,16 +72,36 @@ const slides = [
         
         `,
         link: 'https://camilogz.itch.io/no-duck-hunt'
-    }
+    },
+    {
+      imgSrc: '/bank/Projects/LiteraturaVRgif.gif',
+      title: 'LiteraturaVR',
+      details: '(2021)',
+      description: `It was my high school degree project: it's about an VR immersive experience with education proposes. It exposes the most relevant elements of the literary work "El coronel no tiene quien le escriba" by Gabriel García Márquez, where a 3D scenario recreates the environment's book.
+
+
+      - I organized and led a 4 person team during the last 3 years of high school for the development of this project.
+
+      - I designed the stage and the interactive spaces of the app using the Unity Asset Store, primary 3D objects, textures and implementing sound effects.
+
+      - I programmed the 100% of this experience using Unity, managing control the game with the Bluetooth joystick of the VR box cardboard.
+
+      - We achieve got honor mention as most innovate degree project at the 2021 prom.
+      
+      `,
+      link: 'https://play.google.com/store/apps/details?id=com.CoronelFits.LITERATURAVR&hl=es_CO&gl=US'
+  }
+
     
     // ... add more slides as needed ...
   ];
   
   // Function to change the slide and highlight the selected icon
-function changeSlide(slideIndex) {
+  function changeSlide(slideIndex) {
     const slide = slides[slideIndex];
     document.querySelector('.slide-image').src = slide.imgSrc;
     document.querySelector('.slide-description h2').innerText = slide.title;
+    document.querySelector('.slide-description h3').innerText = slide.details;
     document.querySelector('.slide-description p').innerText = slide.description;
     document.querySelector('.hyperlink-icons a').href = slide.link;
     // Highlight the selected icon

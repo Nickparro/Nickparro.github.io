@@ -50,7 +50,7 @@ const slides = [
         
         - I designed and implemented the enemies randomly instancing, increasing their speed and spawn intervals over time.
 
-        - I programmed the score and high score system, also I designed the UX Gameplay.
+        - I programmed the score and high score system, also I designed the UI/UX Gameplay.
 
         - I managed to get an efficient coordination with new people to develop this project.
         
@@ -66,7 +66,7 @@ const slides = [
 
         - I designed the main idea and achieved coordinate with 4 people team during the 24 hours of creative work.
 
-        - I programmed the score mechanic, implemented the animations systems and the UI flow in less than 7 working hours.
+        - I programmed the score mechanic, implemented the animations systems and the UI/UX in less than 7 working hours.
 
         - I achieved to manage the version control in an optimal way. Taking care of the GitHub repository avoiding losing plenty of information at certain moments.
         
@@ -102,7 +102,7 @@ const slides = [
 
         - I developed every gameplay mechanic including: Player controller, animations, enemy AI, damage and health system.
 
-        - I implemented the level design beside my team workers and also the UI flow.
+        - I implemented the level design beside my team workers and also I implemented the UI/UX.
         
         `,
         link: 'https://sekhmet-games.itch.io/musical-infection'

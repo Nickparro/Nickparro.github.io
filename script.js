@@ -23,21 +23,23 @@ function updateAnimation() {
 updateAnimation();
 
 const slides = [
-    {
-        imgSrc: '/bank/Projects/MusicalInfectionDemoGIF.gif',
-        title: 'Musical Infection',
-        details: '(2018 - In Progress)',
-        description: `It was the first 2D platform game that was exposed at the Unity User Group stand in SOFA 2018 (Colombia) achieving more than 250 impressions during the event. I developed it for my own indie project "Sekhmet Games" beside my cousin Juanes Vargas. This game is in current development and theres no copy of the product published yet.
+    { 
+        imgSrc: '/bank/Projects/BackOnRoad.gif',
+        title: 'Back On Road',
+        details: '(2024)',
+        description: `It is a narrative survival horror game inspired in "Fears to Fathom" game. It was developed for the 3 days Game Jam I participated: "Roads GameJam" by Generation Colombia"; This game is in continuous development by the 4 main members of the Game Jam Team.
 
 
-        - I organized and led a 3 members team during the 4 months of development to this demo.
+        - I progammed the enemy stalking mechanics, including its AI (Script and NavMesh), behavior on stage and animation states.
 
-        - I developed every gameplay mechanic including: Player controller, animations, enemy AI, damage and health system.
+        - I designed and implemented the UI/UX, applying it on Menus and Gameplay.
 
-        - I implemented the level design beside my team workers and also the UI flow.
+        - I created and edited the Intro and Outro Game using the Unity Timeline Tool.
+
+        - I was responsible on the searching and selection of Music and SFX Assets and also I succeeded in managing the workflow during the 3 Days Game Jam using Trello.
         
         `,
-        link: 'https://sekhmet-games.itch.io/musical-infection'
+        link: 'https://offsetdev.itch.io/back-on-road'
     },
     {
         imgSrc: '/bank/Projects/RunErnestoRun.gif',
@@ -48,11 +50,9 @@ const slides = [
         
         - I designed and implemented the enemies randomly instancing, increasing their speed and spawn intervals over time.
 
-        - I programmed the score and high score system.
+        - I programmed the score and high score system, also I designed the UX Gameplay.
 
-        - I implemented the UI flow into the game.
-
-        - I managed to get an efficient coordination with new people to develop this project
+        - I managed to get an efficient coordination with new people to develop this project.
         
         `,
         link: 'https://nicoparroquiano.itch.io/run-ernesto-run'
@@ -90,7 +90,23 @@ const slides = [
       
       `,
       link: 'https://play.google.com/store/apps/details?id=com.CoronelFits.LITERATURAVR&hl=es_CO&gl=US'
-  }
+  },
+  { 
+        imgSrc: '/bank/Projects/MusicalInfectionDemoGIF.gif',
+        title: 'Musical Infection',
+        details: '(2018)',
+        description: `It was the first 2D platform game that was exposed at the Unity User Group stand in SOFA 2018 (Colombia) achieving more than 250 impressions during the event. I developed it for my own indie project "Sekhmet Games" beside my cousin Juanes Vargas. This game is in current development and theres no copy of the product published yet.
+
+
+        - I organized and led a 3 members team during the 4 months of development to this demo.
+
+        - I developed every gameplay mechanic including: Player controller, animations, enemy AI, damage and health system.
+
+        - I implemented the level design beside my team workers and also the UI flow.
+        
+        `,
+        link: 'https://sekhmet-games.itch.io/musical-infection'
+    },
 
     
     // ... add more slides as needed ...

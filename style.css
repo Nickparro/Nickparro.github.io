@@ -94,6 +94,15 @@
     {
       padding-top: 3em;
       padding-bottom: 3em;
+      background-color: #0B0E21;
+    }
+    .aboutme-sec 
+    {
+      background-color: #040611;
+    }
+
+    .content
+    {
       background-color: #040611;
     }
     .main{
@@ -174,7 +183,7 @@
         align-items: center;
         flex-wrap: wrap;
         padding-top: 2em;
-        background-color:#040611;
+        background-color:#0B0E21;
     }
     .portfolio-sec h1,
     .aboutme-sec {
@@ -239,9 +248,11 @@
   }
   
   .slide-image {
-    width: 60%; /* Image takes 60% of the slide width, adjust as needed */
-    height: auto; /* Maintain aspect ratio */
-  }
+    width: 60%; /* Imagen toma el 60% del ancho del contenedor .slide, ajusta según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+    border: 10px solid #040611; /* Borde blanco con un grosor de 5px */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opcional: sombra ligera para destacar más la imagen */
+}
   
   .slide-description {
     width: 35%; /* Description takes 35% of the slide width, adjust as needed */
@@ -282,8 +293,6 @@
   filter: grayscale(0);
   }
   
-
-
   .selected-icon {
     filter: grayscale(0); /* Full color for the selected icon */
     transform: scale(1.1);
@@ -305,7 +314,7 @@
   .hyperlink-icons {
     display: flex;
     gap: 10px; /* Spacing between hyperlink icons */
-    
+    color:white;
   }
   
   .hyperlink-icon {
@@ -314,10 +323,40 @@
     cursor: pointer; /* Indicate icon is clickable */
     transition: transform 0.3s; /* Smooth transition for hover effect */
   }
-  
-  .hyperlink-icon:hover {
-    transform: scale(1.5); /* Scale up icon size on hover */
+
+  /* Estilo para el contenedor del botón Play Now */
+  .play-now-button {
+    display: flex;
+    align-items: center;
+    background-color: #FA4759;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    gap: 10px;
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves para el fondo y la transformación */
   }
+
+  .play-now-button:hover {
+    background-color: #ff7886; /* Color más claro para el fondo al hacer hover */
+    transform: scale(1.05); /* Ligero aumento de tamaño para dar sensación de interactividad */
+  }
+
+  .play-now-button:hover span {
+    color: #f0f0f0; /* Cambio de color del texto al hacer hover */
+  }
+
+  .hyperlink-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s; /* Mantenemos la transición del icono */
+}
+
+.play-now-button:hover .hyperlink-icon {
+    transform: scale(1.2); /* El icono también se escala al hacer hover sobre cualquier parte del botón */
+}
 
   .hyperlinkSM-icons {
     display: flex;

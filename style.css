@@ -249,7 +249,7 @@
   
   .slide-image {
     width: 60%; /* Imagen toma el 60% del ancho del contenedor .slide, ajusta según sea necesario */
-    height: auto; /* Mantiene la relación de aspecto */
+    height: 500px; /* Mantiene la relación de aspecto */
     border: 10px solid #040611; /* Borde blanco con un grosor de 5px */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opcional: sombra ligera para destacar más la imagen */
 }

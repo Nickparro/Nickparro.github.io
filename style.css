@@ -5,327 +5,308 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'League Spartan';
-
 }
 
-    body{
-        background-color: #0B0E21;
-        overflow-x: hidden;
-        
-        
-    }
+body {
+    background-color: #0B0E21;
+    overflow-x: hidden;
+}
 
-    header.start {
-        position: absolute;
-        top:0;
-        left:0;
-        width:100%;
-        padding:30px 100px;
-        display: flex;
-        justify-content: flex-start;
-        align-items:center;
-        z-index:100;
-    }
-
-    .Icon{
-        font-size: 2em;
-        color:white;
-        pointer-events: none;
-        margin-right: 500px;
-    }
-
-    .navigation a {
-        text-decoration: none;
-        color: white;
-        padding: 6px 15px;
-        border-radius: 20px;
-        margin:0 10px;
-        font-weight: 600;
-    } 
-
-    .navigation a:hover, 
-    .navigation a.active {
-        background: purple;
-        color: white;
-    }
-
-    .title{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        overflow: hidden;
-    }
-
-    #text{
-        position: absolute;
-        font-size: 7em;
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-        top: 200px;
-        text-align: center;
-    }
-
-    .title img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        pointer-events: none;
-    }
-
-    .aboutme-sec {
-        position: relative;
-        padding-top: 2em;
-        margin-bottom: 5em;
-        width: 100%;
-        display: flex;
-        justify-content:center ;
-        align-items: center;
-    }
-
-    .aboutme-sec img {
-        width: 25%; 
-        margin-right: 3em;
-    }
-
-    .contact-sec 
-    {
-      padding-top: 3em;
-      padding-bottom: 3em;
-      background-color: #0B0E21;
-    }
-    .aboutme-sec 
-    {
-      background-color: #040611;
-    }
-
-    .content
-    {
-      background-color: #040611;
-    }
-    .main{
-        width: 1200px;
-        max-width: 95%;
-        margin: 0 auto;
-        margin-bottom: 1em;
-        display: flex;
-        align-items: center;
-        justify-content: space;
-        
-    }
-
-    .about-text {
-        align-items: center;
-    }
-
-    .about-text h1 {
-        color: white;
-        font-size: 80px;
-        text-transform: capitalize;
-        
-        margin-bottom: 45px;
-    }
-
-    .about-text h5 {
-        color: white;
-        font-size: 35px;
-        text-transform: 25px;
-        margin-bottom: 2em;
-    }
-
-
-   .about-text p{
-        color: white;
-        letter-spacing: 1px;
-        line-height: 28px;
-        font-size: 25px;
-        margin-bottom: 45px;
-    }
-
-    .about-text span{
-        color: #FA4759;
-    }
-
-    button{
-        background: transparent;
-        color: #FA4759;
-        font-size: 16px;
-        text-decoration: none;
-        border: 2px solid #FA4759;
-        font-weight: bold;
-        padding: 13px 30px;
-        border-radius: 30px;
-        transition: .4s ease;
-    }
-
-    button:hover{
-        background: #FA4759;
-        color: white;
-        border: 2px solid #FA4759;
-        box-shadow: 0 0 5px #FA4759,
-                    0 0 25px #FA4759;
-        cursor: pointer;
-        transform: scale(1.1);
-    }
-
-    .cv {
-        margin-left: 1em;
-    }
-    .portfolio-sec {
-        position: relative;
-        margin-top: 5em;
-        margin-bottom: 7em;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        padding-top: 2em;
-        background-color:#0B0E21;
-    }
-    .portfolio-sec h1,
-    .aboutme-sec {
-        color:white;
-    }
-
-   
-    .top_div{
-        position: relative;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-bottom: 4em; 
-   }
-
-   .top_div h1 {
-        position: relative;
-        font-size: 3em;
-        text-transform: uppercase;
-        margin-left: 30px;
-        color: white;
-        
-   }
-   .top_div h5 {
-        position: relative;
-        font-size: 1.5em;
-        margin-bottom: 30px;
-    }
-
-   .top_div hr{
-        position: relative;
-        width: 70px;
-        height: 4px;
-        border: none;
-        background: purple;
-   }
-
-   /*Portafolio slides*/
-
-   .slider-container {
+header.start {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 1200px; /* Adjust based on your layout requirements */
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.Icon {
+    font-size: 2em;
+    color: white;
+    pointer-events: none;
+    margin-right: 500px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: purple;
+    color: white;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#text {
+    position: absolute;
+    font-size: 7em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    top: 200px;
+    text-align: center;
+}
+
+.title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.aboutme-sec {
+    position: relative;
+    padding-top: 2em;
+    margin-bottom: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-sec img {
+    width: 25%;
+    margin-right: 3em;
+}
+
+.contact-sec {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #0B0E21;
+}
+
+.content {
+    background-color: #040611;
+}
+
+.main {
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    align-items: center;
+}
+
+.about-text h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+}
+
+.about-text h5 {
+    color: white;
+    font-size: 35px;
+    text-transform: 25px;
+    margin-bottom: 2em;
+}
+
+.about-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+
+.about-text span {
+    color: #FA4759;
+}
+
+button {
+    background: transparent;
+    color: #FA4759;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid #FA4759;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s ease;
+}
+
+button:hover {
+    background: #FA4759;
+    color: white;
+    border: 2px solid #FA4759;
+    box-shadow: 0 0 5px #FA4759,
+                0 0 25px #FA4759;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.cv {
+    margin-left: 1em;
+}
+
+.portfolio-sec {
+    position: relative;
+    margin-top: 5em;
+    margin-bottom: 7em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    background-color: #0B0E21;
+}
+
+.portfolio-sec h1,
+.aboutme-sec {
+    color: white;
+}
+
+.top_div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 4em;
+}
+
+.top_div h1 {
+    position: relative;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-left: 30px;
+    color: white;
+}
+
+.top_div h5 {
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.top_div hr {
+    position: relative;
+    width: 70px;
+    height: 4px;
+    border: none;
+    background: purple;
+}
+
+.slider-container {
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
-    overflow: hidden; /* Ensure no overflow of child elements */
-    
-  }
-  
-  .slide {
+    overflow: hidden;
+}
+
+.slide {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the top */
-    margin-bottom: 20px; /* Space for icons */
-    
-  }
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
 
-  .slide h3
-  {
+.slide h3 {
     color: white;
     font-size: 1.5em;
-  }
-  
-  .slide-image {
-    width: 60%; /* Imagen toma el 60% del ancho del contenedor .slide, ajusta según sea necesario */
-    height: 500px; /* Mantiene la relación de aspecto */
-    border: 10px solid #040611; /* Borde blanco con un grosor de 5px */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opcional: sombra ligera para destacar más la imagen */
 }
-  
-  .slide-description {
-    width: 35%; /* Description takes 35% of the slide width, adjust as needed */
-    padding-top: 0;
-    box-sizing: border-box; /* Include padding in width calculation */
-    margin-top: 0; /* Add space between image and description */
-    min-height: 600px; /* Ajusta esto a la altura del contenido más alto que esperas */
-  }
 
-  .slide-description p
-  {
+.slide-image {
+    width: 60%;
+    height: 500px;
+    border: 10px solid #040611;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slide-description {
+    width: 35%;
+    padding-top: 0;
+    box-sizing: border-box;
+    margin-top: 0;
+    min-height: 600px;
+}
+
+.slide-description p {
     padding-top: 1em;
     font-size: 20px;
     letter-spacing: 0.5px;
-  }
+}
 
-  
-  .slide-icons {
+.slide-icons {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Spacing between icons */
+    gap: 10px;
     margin-bottom: 1em;
-  }
-  
-  .icon {
-    width: 70px; /* Adjust icon size as needed */
-    height: 50px; /* Adjust icon size as needed */
-    cursor: pointer; /* Indicate icon is clickable*/
-    opacity: 0.6; /* Icons are slightly transparent until hovered*/
-  transition: opacity 0.3s; /* Smooth transition for hover effect*/ 
-  filter: grayscale(100%); /* Make the icon grayscale*/ 
-  transition: transform 0.3s, filter 0.3s; /* Smooth transition for hover effect and grayscale */
-  }
-  
-  .icon:hover {
-  opacity: 1; /* Icon is fully opaque on hover */
-  transform: scale(1.1);
-  filter: grayscale(0);
-  }
-  
-  .selected-icon {
-    filter: grayscale(0); /* Full color for the selected icon */
+}
+
+.icon {
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+    filter: grayscale(100%);
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.icon:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+.selected-icon {
+    filter: grayscale(0);
     transform: scale(1.1);
     opacity: 1;
-  }
-  
-  .slide-description h2 {
-    color: white;
-    font-size: 3em; /* Adjust the size as needed */
-    margin-top: 0; /* Align at the top */
-  }
-  
-  .slide-description p {
-    color: white;
-    margin-top: 0; /* Align at the top */
-  }
-  
-  /* Container for the hyperlink icons */
-  .hyperlink-icons {
-    display: flex;
-    gap: 10px; /* Spacing between hyperlink icons */
-    color:white;
-  }
-  
-  .hyperlink-icon {
-    width: 30px; /* Size of the hyperlink icon */
-    height: 30px; /* Size of the hyperlink icon */
-    cursor: pointer; /* Indicate icon is clickable */
-    transition: transform 0.3s; /* Smooth transition for hover effect */
-  }
+}
 
-  /* Estilo para el contenedor del botón Play Now */
-  .play-now-button {
+.slide-description h2 {
+    color: white;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+.slide-description p {
+    color: white;
+    margin-top: 0;
+}
+
+.hyperlink-icons {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.hyperlink-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.play-now-button {
     display: flex;
     align-items: center;
     background-color: #FA4759;
@@ -335,93 +316,157 @@
     border-radius: 8px;
     font-weight: bold;
     gap: 10px;
-    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves para el fondo y la transformación */
-  }
+    transition: background-color 0.3s, transform 0.3s;
+}
 
-  .play-now-button:hover {
-    background-color: #ff7886; /* Color más claro para el fondo al hacer hover */
-    transform: scale(1.05); /* Ligero aumento de tamaño para dar sensación de interactividad */
-  }
+.play-now-button:hover {
+    background-color: #ff7886;
+    transform: scale(1.05);
+}
 
-  .play-now-button:hover span {
-    color: #f0f0f0; /* Cambio de color del texto al hacer hover */
-  }
-
-  .hyperlink-icon {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: transform 0.3s; /* Mantenemos la transición del icono */
+.play-now-button:hover span {
+    color: #f0f0f0;
 }
 
 .play-now-button:hover .hyperlink-icon {
-    transform: scale(1.2); /* El icono también se escala al hacer hover sobre cualquier parte del botón */
+    transform: scale(1.2);
 }
 
-  .hyperlinkSM-icons {
+.hyperlinkSM-icons {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px; /* Spacing between hyperlink icons */
-  
-  }
+    gap: 30px;
+}
 
-  .hyperlinkSM-icon {
-    width: 80px; /* Size of the hyperlink icon */
-    height: 80px; /* Size of the hyperlink icon */
-    cursor: pointer; /* Indicate icon is clickable */
-    transition: transform 0.3s; /* Smooth transition for hover effect */
-  }
-  
-  .hyperlinkSM-icon:hover {
-    transform: scale(1.2); /* Scale up icon size on hover */
-  }
-  
+.hyperlinkSM-icon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
 
-  @media (max-width: 768px) {
-    .slide {
-    flex-direction: column;
-    }
-    
+.hyperlinkSM-icon:hover {
+    transform: scale(1.2);
+}
 
-  }
-
-  /*Skills and Tools section*/
-
-  .skills-tools-container {
+.skills-tools-container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 1em;
     max-width: 1200px;
     padding: 20px;
-  }
-  
-  .skills, .tools {
-    flex: 1; /* Hace que ambas columnas tengan el mismo ancho */
-    margin: 0 10px; /* Espacio entre las columnas */
-  }
-  
-  /* Estilos adicionales para las listas si es necesario */
-  ul {
+}
+
+.skills,
+.tools {
+    flex: 1;
+    margin: 0 10px;
+}
+
+ul {
     list-style: none;
     padding: 0;
     color: white;
     margin-bottom: 20px;
-  }
-  
-  li {
+}
+
+li {
     margin-top: 4px;
-    margin-bottom: 8px; /* Espacio entre los ítems de la lista */
-  }
-  
-  .skills-tools-container h2 {
+    margin-bottom: 8px;
+}
+
+.skills-tools-container h2 {
     color: white;
     font-size: 40px;
-    margin-bottom: 20px; /* Espacio debajo de los títulos de sección */
-  }
+    margin-bottom: 20px;
+}
 
-  .skills-tools-container h3 {
+.skills-tools-container h3 {
     color: white;
     font-size: 25px;
-  }
+}
+
+@media (max-width: 768px) {
+    header.start {
+        padding: 30px 20px;
+    }
+
+    .Icon {
+        font-size: 1.5em;
+        margin-right: 0;
+    }
+
+    #text {
+        font-size: 3em;
+        top: 100px;
+    }
+
+    .aboutme-sec img {
+        width: 50%;
+        margin-right: 1em;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .about-text h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .about-text p {
+        font-size: 1em;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-sec {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .slide {
+        flex-direction: column;
+    }
+
+    .slide-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .slide-description {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hyperlinkSM-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .skills-tools-container {
+        flex-direction: column;
+    }
+
+    .skills,
+    .tools {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .skills-tools-container h2 {
+        font-size: 1.5em;
+    }
+
+    .skills-tools-container h3 {
+        font-size: 1.2em;
+    }
+}

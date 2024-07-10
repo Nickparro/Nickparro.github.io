@@ -23,13 +23,28 @@ function updateAnimation() {
 updateAnimation();
 
 const slides = [
-    { 
+  { 
+    //imgSrc: '/bank/Projects/BackOnRoad.gif',
+    videoId: '3XL8JOJE0yA',
+    title: 'That Cruise Trip',
+    details: '(2024)',
+    description: `A low poly novel with detective story made for the 7 days Summer Game Jam by "TheXPlace" with the topic: Travel. 
+
+    - I created and designed the level and environment, contributing to the main Game Design idea.
+
+    - I designed the UI/UX 
+
+    - I implemented the Cinematic events and Character animations.
+    
+    `,
+    link: 'https://offsetdev.itch.io/back-on-road'
+  },  
+  { 
       //imgSrc: '',
       videoId: 'HCFALc1e8Hc',
       title: 'Hazmat',
       details: '(2024)',
       description: `A Co-op survival escape game, made as final project of the Unity Developer Bootcamp by Generation. We use Netcode tool to create this multiplayer videogame
-
 
       - I programmed the enemy stalking mechanics, its behavior on stage and animation states using Netcode Tech.
 
@@ -49,8 +64,7 @@ const slides = [
         details: '(2024)',
         description: `It is a narrative survival horror game inspired in "Fears to Fathom" game. It was developed for the 3 days Game Jam I participated: "Roads GameJam" by Generation Colombia"; This game is in continuous development by the 4 main members of the Game Jam Team.
 
-
-        - I programmed the enemy stalking mechanics, including its AI (Script and NavMesh), behavior on stage and animation states.
+        - I programmed the enemy stalking mechanics, including its behavior on stage and animation states.
 
         - I designed and implemented the UI/UX, applying it on Menus and Gameplay.
 
@@ -101,7 +115,6 @@ const slides = [
       details: '(2021)',
       description: `It was my high school degree project: it's about an VR immersive experience with education proposes. It exposes the most relevant elements of the literary work "El coronel no tiene quien le escriba" by Gabriel García Márquez, where a 3D scenario recreates the environment's book.
 
-
       - I organized and led a 4 person team during the last 3 years of high school for the development of this project.
 
       - I designed the stage and the interactive spaces of the app using the Unity Asset Store, primary 3D objects, textures and implementing sound effects.
@@ -109,7 +122,7 @@ const slides = [
       - I programmed the 100% of this experience using Unity, managing control the game with the Bluetooth joystick of the VR box cardboard.
 
       - We achieve got honor mention as most innovate degree project at the 2021 prom.
-      
+  
       `,
       link: 'https://drive.google.com/file/d/1uzLKIN6zjyUX_dmjbjm--02qCjVrp9uV/view'
   },

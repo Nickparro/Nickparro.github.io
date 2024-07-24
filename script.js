@@ -37,7 +37,7 @@ const slides = [
     - I implemented the Cinematic events and Character animations.
     
     `,
-    link: 'https://offsetdev.itch.io/back-on-road'
+    link: 'https://goat-studios-games.itch.io/that-cruise-trip'
   },  
   { 
       //imgSrc: '',

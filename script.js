@@ -24,21 +24,43 @@ updateAnimation();
 
 const slides = [
   { 
-    //imgSrc: '/bank/Projects/BackOnRoad.gif',
-    videoId: '3XL8JOJE0yA',
-    title: 'That Cruise Trip',
-    details: '(2024)',
-    description: `A low poly novel with detective story made for the 7 days Summer Game Jam by "TheXPlace" with the topic: Travel. 
+      //imgSrc: '',
+      videoId: 'ptgelRLnHNM',
+      title: 'Its Not a Bomb!',
+      details: '(2026)',
+      description: `Multiplayer party battle-royale game for PC in which players throw explosives between each other until only one player remains, combining fast-paced competitive gameplay with a stylized toon visual direction.
+      
+      - Designed and refined the core gameplay loop for a fast-paced multiplayer experience.
 
-    - I created and designed the level and environment, contributing to the main Game Design idea.
+      - Created character animations and VFX, implementing them for both local and online multiplayer.
 
-    - I designed the UI/UX 
+      - Developed the character design and visual identity of the game.
 
-    - I implemented the Cinematic events and Character animations.
-    
+      - Polished graphics, shaders, UI/UX, and visual feedback to achieve a professional, commercially ready presentation.
+      
     `,
-    link: 'https://goat-studios-games.itch.io/that-cruise-trip'
-  },  
+    link: 'https://store.steampowered.com/app/4806170/Its_Not_a_Bomb/'
+    },
+  { 
+      //imgSrc: '',
+      videoId: '3zMnyrs0nrA',
+      title: 'The Dinner',
+      details: '(2025)',
+      description: `First-person 3D psychological horror game focused on environmental storytelling, puzzle solving, exploration, and a short narrative-driven experience.
+
+      - Designed and programmed gameplay mechanics, puzzles, interactions, and progression systems using Unity and C#.
+
+      - Designed the game environment and player progression through level design, environmental storytelling, pacing, and interaction placement.
+
+      - Implemented a save system to preserve player progression.
+
+      - Created cinematic sequences and 3D animations supporting the game's psychological horror atmosphere and narrative presentation.
+
+      - Focused on atmospheric presentation, visual consistency, gameplay readability, and overall polish for its Steam release.
+      
+    `,
+    link: 'https://store.steampowered.com/app/4806170/Its_Not_a_Bomb/'
+    },  
   { 
       //imgSrc: '',
       videoId: 'HCFALc1e8Hc',
@@ -75,23 +97,22 @@ const slides = [
         `,
         link: 'https://offsetdev.itch.io/back-on-road'
     },
-    {
-        //imgSrc: '/bank/Projects/RunErnestoRun.gif',
-        videoId: 'PS98ebccmGQ',
-        title: 'Run Ernesto Run!',
-        details: '(2024)',
-        description: `It's an endless 2D runner created during the second and third week of the  Generation's Unity Developer Bootcamp by 4 people team as the first challenge that we decided to start.
-        
-        
-        - I designed and implemented the enemies randomly instancing, increasing their speed and spawn intervals over time.
+    { 
+    //imgSrc: '/bank/Projects/BackOnRoad.gif',
+    videoId: '3XL8JOJE0yA',
+    title: 'That Cruise Trip',
+    details: '(2024)',
+    description: `A low poly novel with detective story made for the 7 days Summer Game Jam by "TheXPlace" with the topic: Travel. 
 
-        - I programmed the score and high score system, also I designed the UI/UX Gameplay.
+    - I created and designed the level and environment, contributing to the main Game Design idea.
 
-        - I managed to get an efficient coordination with new people to develop this project.
-        
-        `,
-        link: 'https://nicoparroquiano.itch.io/run-ernesto-run'
-    },
+    - I designed the UI/UX 
+
+    - I implemented the Cinematic events and Character animations.
+    
+    `,
+    link: 'https://goat-studios-games.itch.io/that-cruise-trip'
+  },  
     // {
     //     imgSrc: '/bank/Projects/NoDuckHunt.gif',
     //     title: 'No Duck Hunt',
@@ -142,7 +163,7 @@ const slides = [
         
         `,
         link: 'https://drive.google.com/file/d/1uzLKIN6zjyUX_dmjbjm--02qCjVrp9uV/view'
-    }
+  }
   ];
   
   // Function to change the slide and highlight the selected icon

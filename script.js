@@ -59,7 +59,7 @@ const slides = [
       - Focused on atmospheric presentation, visual consistency, gameplay readability, and overall polish for its Steam release.
       
     `,
-    link: 'https://store.steampowered.com/app/4806170/Its_Not_a_Bomb/'
+    link: 'https://store.steampowered.com/app/3537410/The_Dinner/'
     },  
   { 
       //imgSrc: '',
